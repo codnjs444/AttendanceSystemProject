@@ -100,7 +100,7 @@ public class ImageViewer extends JFrame {
             button.setForeground(Color.black);
             button.setBorderPainted(false);
             
-            button.addActionListener(e ->  showPanel(new ProfilePanel(), layeredPane)); // CounselingPanel 보여주는 동작
+            button.addActionListener(e ->  showPanel(new UserProfilePanel(), layeredPane)); // CounselingPanel 보여주는 동작
           }else if (i == buttonNames.length - 3) {
                 button.setBackground(new Color(255, 255, 255));
                  button.setFont(new Font("Inter", Font.PLAIN, 18));
